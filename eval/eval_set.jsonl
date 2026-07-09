@@ -1,0 +1,5 @@
+{"question": "How does user authentication work in this codebase?", "expected_files": ["auth/service.py"], "type": "conceptual"}
+{"question": "What does the UserService.authenticate method do?", "expected_symbol": "UserService.authenticate", "type": "symbol_lookup"}
+{"question": "Who calls the authenticate function?", "expected_type": "caller_search", "type": "impact_analysis"}
+{"question": "Where is the database connection configured?", "type": "conceptual"}
+{"question": "What happens if a user's password check fails?", "type": "conceptual"}
